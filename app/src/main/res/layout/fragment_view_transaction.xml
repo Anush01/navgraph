@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FragmentViewTransaction">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/foodTextview"
+        android:text="Food: 200 $"
+        android:gravity="center"
+
+        android:textSize="30sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StayTextview"
+        android:text="Stay: 200 $"
+        android:gravity="center"
+        android:textSize="30sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/petrolTextview"
+        android:text="Petrol: 200 $"
+        android:gravity="center"
+        android:textSize="30sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zooTextview"
+        android:text="Zoo: 200 $"
+        android:gravity="center"
+        android:textSize="30sp"
+        ></TextView>
+
+
+
+</LinearLayout>

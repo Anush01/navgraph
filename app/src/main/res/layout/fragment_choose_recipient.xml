@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".FragmentChooseRecipient">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Who do you want to send money to?"
+       android:id="@+id/recipientEditText"
+       android:padding="10dp"
+       android:layout_margin="20dp"
+       ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:text="Next"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelButton"
+        android:text="Cancel mofo"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        ></Button>
+
+</LinearLayout>
